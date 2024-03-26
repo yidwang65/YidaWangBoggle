@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Upper Half Container -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/upper_half_container"
+        android:name="com.example.boggle.MainGameFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- Lower Half Container -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/lower_half_container"
+        android:name="com.example.boggle.ScoreFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"/>
+
+</LinearLayout>
