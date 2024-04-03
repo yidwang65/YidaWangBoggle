@@ -8,13 +8,13 @@
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Score:_"
+        android:text="Score:0"
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click Me" />
+        android:text="New Game" />
 
 </LinearLayout>

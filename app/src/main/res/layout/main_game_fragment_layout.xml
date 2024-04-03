@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <!-- TextView at the top -->
     <TextView
         android:id="@+id/textViewTop"
@@ -164,7 +163,7 @@
         android:layout_below="@id/gridLayoutButtons"
         android:gravity="center"
         android:padding="16dp"
-        android:text="_____"
+        android:text=""
         android:textSize="20sp" />
 
     <GridLayout
@@ -177,7 +176,7 @@
 
 
         <Button
-            android:id="@+id/buttonclear"
+            android:id="@+id/buttonClear"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -186,7 +185,7 @@
             android:text="Clear" />
 
         <Button
-            android:id="@+id/buttonsubmit"
+            android:id="@+id/buttonSubmit"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
